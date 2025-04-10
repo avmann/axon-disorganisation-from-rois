@@ -1,6 +1,9 @@
 # axon-disorganisation-from-rois
 Fiji macro to tabulate axon lengths and disorganisation areas of disorganised axons from roi markings
 
+Rationale
+- this macro is meant to simplify image analysis for axon length and areas of microtubule disorganisation. It only requires the user to supply image panels of macros and zip files with markings of axon (line tools) and areas of disorganisations (shape tools).
+
 Assumptions:
 - all image files are accompanied by zip files containing rois
 - zip files should have the same file name as the image file (technically the expected order is image file, corresponding zip file, next pair)
